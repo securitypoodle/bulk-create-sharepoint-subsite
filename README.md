@@ -2,6 +2,7 @@
 This powershell script creates multiple Sharepoint Online Subsites referrencing a pre-built CSV.
 
 This was originally created circa 2019 to automate a yearly (and extremely) manual process of creating multiple subsites within Microsoft Sharepoint Online. 
+As such, some code usage may be outdated. Please reference the relevant Microsoft docs for any variance. 
 
 ## Use Case
 The Sharepoint environment was utilized as a customer-facing portal for securely sharing documents. For "reasons", the company needed to create a new subsite per customer each year. As such, a site was created for 2020, 2019, 2018, etc. For each year's site, a subsite was created for each customer (i.e. `/2020/CustomerA, /2020/CustomerB, etc`). This led to a manual process that consumed roughly 2-3 weeks of analyst time clicking through the Sharepoint portal to create the site, apply the appropriate name, and import a pre-determined folder structure so customers could share documents back and forth with the company's team. The time of 2-3 weeks was determined by how many customer portals needed to be created - each year a roughly estimated 150+ portals/subsites would need to be created, each one taking anywhere between 10-20 minutes to create (due to Sharepoint website load times).
