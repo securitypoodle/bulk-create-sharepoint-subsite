@@ -1,6 +1,9 @@
 $SiteCollURL = "https://DOMAIN.sharepoint.com/sites/SUBSITE"
 
-# If you have MFA enabled, use an App Password in your credentials when prompted below
+# Authentication can vary depending on method configured.
+# >> Basic auth may need an App Password input when prompted
+# >> OAuth may prompt you for normal creds, and then MFA (if enabled)
+
 Connect-PnPOnline -Url $SiteCollURL -Credentials $Cred
 
 $file = Import-Csv .\TestPortal.csv
