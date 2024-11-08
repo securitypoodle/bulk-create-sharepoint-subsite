@@ -1,6 +1,7 @@
 # bulk-create-sharepoint-subsite
 This powershell script creates multiple Sharepoint Online Subsites referrencing a pre-built CSV.
 
+## Disclaimer
 This was originally created circa 2019 to automate a yearly (and extremely) manual process of creating multiple subsites within Microsoft Sharepoint Online. 
 As such, some code usage may be outdated. Please reference the relevant Microsoft docs for any variance. 
 
