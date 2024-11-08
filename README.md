@@ -41,12 +41,12 @@ This script leverages PnP PowerShell cmdlets to:
 | variable | description |
 | -------- | ----------- |
 | $SiteCollURL | This variable is the site you want to bulk create subsites under. In our use case above, this would be something like `https://DOMAIN.sharepoint.com/sites/<2020>` |
-| $file | This variable references the file location of your CSV. In our use case, we saved the CSV to the current working directory of our poweshell window. |
-| $SiteTitle | This variable references the value in the "SiteTitle" column of our CSV. |
-| $SiteURL | This variable references the value in the "URL" column of our CSV. |
-| $Description | This variable references the value in the "Description" column of our CSV. |
-| $Locale | This variable references the value in the "Locale" column of our CSV. |
-| $Template | This variable references the value in the "Template" column of our CSV. |
+| $file | References the file location of your CSV. In our use case, we saved the CSV to the current working directory of our poweshell window. |
+| $SiteTitle | References the value in the "SiteTitle" column of our CSV. |
+| $SiteURL | References the value in the "URL" column of our CSV. |
+| $Description | References the value in the "Description" column of our CSV. |
+| $Locale | References the value in the "Locale" column of our CSV. |
+| $Template | References the value in the "Template" column of our CSV. |
 
 ## Results
 If all is successful, you should see the output on your screen!
