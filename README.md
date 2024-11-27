@@ -14,6 +14,7 @@ So what do we do with a manual process that takes dozens of hours? Automate it!
 The company's business unit already maintained a list of customers, so we leveraged this and had a CSV export generated for our use. From the CSV, I used the following data:
 - Customer name (for Subsite Name)
 - Customer acronym (for Subsite URL)
+
 Additional data was added for Sharepoint-specifics:
 - Description (copy from Customer name, could be anything else)
 - Locale (The language id of the new web. Default = 1033 for English)
